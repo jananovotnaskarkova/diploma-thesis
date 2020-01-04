@@ -142,5 +142,5 @@ df = df.iloc[3:,]
 
 print(df)  
 
-# do csv
+# tisk do csv
 df.to_csv('registrP.csv', encoding='windows-1250', sep=';', mode='w')
